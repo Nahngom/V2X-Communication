@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 05/21/25 12:37:23 by Eclipse SUMO duarouter Version 1.8.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="nh29.net.xml"/>
+        <route-files value="nh29.trips.xml"/>
+    </input>
+
+    <output>
+        <output-file value="nh29.rou.xml"/>
+        <alternatives-output value="nh29.rou.alt.xml"/>
+    </output>
+
+    <report>
+        <ignore-errors value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+
+<vType id="fixedSpeedCar" accel="1.0" decel="4.5" sigma="0" length="5" maxSpeed="30" speedFactor="1" speedDev="0"/>
+
+    <vehicle id="1" type="fixedSpeedCar" depart="1.00">
+        <route edges="1353388495"/>
+    </vehicle>
+    <vehicle id="2" type="fixedSpeedCar" depart="2.00">
+        <route edges="1353388496"/>
+    </vehicle>
+    <vehicle id="4" type="fixedSpeedCar" depart="2.00">
+        <route edges="1353388495"/>
+    </vehicle>
+    <vehicle id="6" type="fixedSpeedCar" depart="60.00">
+        <route edges="1353388495"/>
+    </vehicle>
+    <vehicle id="7" type="fixedSpeedCar" depart="90.00">
+        <route edges="1353388496"/>
+    </vehicle>
+    <vehicle id="10" type="fixedSpeedCar" depart="100.00">
+        <route edges="1353388496"/>
+    </vehicle>
+    <vehicle id="11" type="fixedSpeedCar" depart="105.00">
+        <route edges="1353388495"/>
+    </vehicle>
+    <vehicle id="13" type="fixedSpeedCar" depart="210.00">
+        <route edges="1353388495"/>
+    </vehicle>
+    <vehicle id="14" type="fixedSpeedCar" depart="211.00">
+        <route edges="1353388496"/>
+    </vehicle>
+    <vehicle id="15" type="fixedSpeedCar" depart="215.00">
+        <route edges="1353388496"/>
+    </vehicle>
+    
+</routes>
